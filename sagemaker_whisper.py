@@ -39,7 +39,7 @@ def transcribe_audio(audio_file_path):
 
 if __name__ == "__main__":
     # Path to your audio file 
-    audio_file = os.path.join("audio_samples", "sample1-wav.wav") 
+    audio_file = os.path.join("audio_samples", "sample1-mp3.mp3")  # Example MP3 file
     # this file is around 4.5MB
         
     print(f"Transcribing audio file: {audio_file}")
